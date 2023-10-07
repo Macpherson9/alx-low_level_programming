@@ -1,18 +1,17 @@
 #include <stdio.h>
 
 /**
- * main - prints the alphabet in lowercase,
- * followed by a new line
+ * main - prints the last digit of the random
+ * number stored in the variable n
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	char ch;
-
-	for (ch = 'a'; ch <= 'z'; ch++)
+	for (char i = 'a'; i <= 'z'; i++)
 	{
-		putchar(ch);
+		putchar(i);
+		putchar('\n');
 	}
-	putchar('\n');
 	return (0);
 }
