@@ -1,16 +1,21 @@
 #include <stdio.h>
 
 /**
- * main - prints all single digit numbers of base
- * 10 starting from 0, followed by a new line
+ * main - assigns a random number to int n everytime
+ * it executes, and prints it
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	int n;
+	int i = 0;
 
-	for (n = 0; n < 10; n++)
-		printf("%d", n);
+	while (i < 10)
+	{
+		printf("%d", i);
+		i++;
+	}
 	printf("\n");
+
 	return (0);
 }
