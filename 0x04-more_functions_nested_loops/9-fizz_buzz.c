@@ -19,9 +19,9 @@ int main(void)
 		{
 			printf("Buzz", i);
 		}
-		else if (i % 3 == 0) && i % 5 == 0)
+		else if (i % 3 == 0 && i % 5 == 0)
 		{
-			printf("FizBuzz ");
+			printf("FizzBuzz ");
 		}
 		else if ((i % 5) == 0)
 		{
