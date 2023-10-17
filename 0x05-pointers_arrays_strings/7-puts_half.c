@@ -13,7 +13,7 @@ void puts_half(char *str)
 
 	for (i = 0; str[i] != '\0'; i++)
 		sum++;
-	if (sum % 0 == 0)
+	if (sum % 2 == 0)
 	{
 		half = sum / 2;
 		for (i = half; str[i] != '\0'; i++)
