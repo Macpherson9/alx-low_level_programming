@@ -17,13 +17,9 @@ void print_rev(char *s)
 		sum++;
 	}
 
-	if (sum > 0)
+	for (i = sum - 1; i >= 0; i--)
 	{
-		for (i = sum; i >= 0; i--)
-		{
-			_putchar(s[i]);
-		}
-		_putchar('\n');
+		_putchar(s[i]);
 	}
+	_putchar('\n');
 }
-
