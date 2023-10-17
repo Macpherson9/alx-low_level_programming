@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * put2 - prints every other character
+ * puts2 - prints every other character
  * @str: string
  * Return: void
  */
 
-void put2(char *str)
+void puts2(char *str)
 {
 	int i, j;
 	int sum = 0;
