@@ -11,7 +11,7 @@ void puts2(char *str)
 	int i;
 	int sum = 0;
 
-	for (i = 0; str[i] != '\n'; i++)
+	for (i = 0; str[i] != '\0'; i++)
 		sum++;
 	for (i = 0; i < sum; i = i + 2)
 		_putchar(str[i]);
