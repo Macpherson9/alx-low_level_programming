@@ -12,18 +12,19 @@
 
 int main(int argc, char *argv[])
 {
-	if (argc <= 1)
+	int result, num1, num2;
+
+	if (argc < 3 || argc > 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
 
-	int a,b,product;
+	num1 = atoi(argv[1]);
+	num2 = atoi(argv[2]);
+	result = num1 * num2;
 
-	a = atoi(argv[1]);
-	b = atoi(argv[2]);
-	product = a * b;
+	printf("%d\n", result);
 
-	printf("%d\n", product);
 	return (0);
 }
