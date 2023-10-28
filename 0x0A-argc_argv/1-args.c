@@ -11,9 +11,6 @@
 
 int main(int argc, char *argv[] __attribute__((unused)))
 {
-	int count;
-	count = argc - 1;
-
-	printf("%d\n", count);
+	printf("%d\n", argc - 1);
 	return (0);
 }
