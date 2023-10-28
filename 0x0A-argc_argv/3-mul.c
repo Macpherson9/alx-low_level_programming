@@ -18,8 +18,12 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
-	int a = atoi(argv[1]), b = atoi(argv[2]), product = a * b;
+	int a,b,product;
+
+	a = atoi(argv[1]);
+	b = atoi(argv[2]);
+	product = a * b;
 
 	printf("%d\n", product);
 	return (0);
-
+}
