@@ -13,7 +13,7 @@ list_t *add_node(list_t **head, const char *str)
 	list_t *new;
 	unsigned int len = 0;
 
-	len = strlen(*str);
+	len = strlen(str);
 
 	new = (list_t *)malloc(sizeof(list_t));
 	if (!new)
